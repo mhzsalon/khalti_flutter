@@ -153,7 +153,7 @@ class _MainPage extends StatelessWidget {
         foregroundColor: colorScheme.onPrimary,
         iconTheme: IconThemeData(color: khaltiColor.surface.shade400),
       ),
-      tabBarTheme: TabBarTheme(
+      tabBarTheme: TabBarThemeData(
         unselectedLabelColor: khaltiColor.surface.shade50,
         unselectedLabelStyle: TextStyle(color: khaltiColor.surface.shade100),
         labelColor: colorScheme.onPrimary,
@@ -168,7 +168,8 @@ class _MainPage extends StatelessWidget {
       ),
       elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
-          foregroundColor: Colors.white, minimumSize: const Size(64, 50),
+          foregroundColor: Colors.white,
+          minimumSize: const Size(64, 50),
         ),
       ),
     );

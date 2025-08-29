@@ -1,4 +1,4 @@
-name: khalti_flutter_sdk_workspace
+name: khalti_flutter
 
 environment:
   sdk: '>=2.18.0 <3.0.0'
